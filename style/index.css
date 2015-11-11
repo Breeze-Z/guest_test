@@ -1,0 +1,71 @@
+/* 
+    Created on : 2015-11-11, 9:09:09
+    Author     : weisen.zhang
+*/
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 960px;
+    margin: 0 auto;
+    background: #fff;
+    font-size: 14px;
+}
+ul{
+    list-style: none;
+}
+#header{
+    width: auto;
+    height:150px;
+    border:2px solid #ccc;
+    margin: 10px 0;
+}
+#header img{
+    margin:40px 0 0 50px;
+}
+#header ul{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+#header ul li{
+    display: inline;
+}
+h2{
+    font-size: 14px;
+    background: #eee;
+    height: 25px;
+    line-height: 25px;
+    text-indent: 10px; 
+}
+#user{
+    width:340px;
+    height:250px;
+    border: 2px solid #ccc;
+    float: left;
+    margin: 0 0 10px 0;
+}
+#pics{
+    width: 340px;
+    height: 250px;
+    border: 2px solid #ccc;
+    float: left;
+}
+#list {
+    width:600px;
+    height:514px;
+    border:2px solid #ccc;
+    float:right;
+}
+
+#footer{
+    clear: both;
+    font-size: 12px;
+    width: auto;
+    height: 60px;
+    text-align:center;
+    padding:10px 0 0 0;
+    letter-spacing: 1px;
+}
+
