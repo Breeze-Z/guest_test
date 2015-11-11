@@ -16,22 +16,6 @@ body{
 ul{
     list-style: none;
 }
-#header{
-    width: auto;
-    height:150px;
-    border:2px solid #ccc;
-    margin: 10px 0;
-}
-#header img{
-    margin:40px 0 0 50px;
-}
-#header ul{
-    text-align: right;
-    padding: 30px 50px 0 0;
-}
-#header ul li{
-    display: inline;
-}
 h2{
     font-size: 14px;
     background: #eee;
@@ -57,15 +41,5 @@ h2{
     height:514px;
     border:2px solid #ccc;
     float:right;
-}
-
-#footer{
-    clear: both;
-    font-size: 12px;
-    width: auto;
-    height: 60px;
-    text-align:center;
-    padding:10px 0 0 0;
-    letter-spacing: 1px;
 }
 
