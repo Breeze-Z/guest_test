@@ -4,6 +4,26 @@
     独立出基本样式表（头部，尾部）
 */
 @charset"utf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 960px;
+    margin: 0 auto;
+    background: #fff;
+    font-size: 14px;
+}
+ul{
+    list-style: none;
+}
+h2{
+    font-size: 14px;
+    background: #eee;
+    height: 25px;
+    line-height: 25px;
+    text-indent: 10px; 
+}
 #header{
     width: auto;
     height:150px;
@@ -20,6 +40,15 @@
 #header ul li{
     display: inline;
 }
+#header ul li a{
+    text-decoration: none;
+    color:#333;
+}
+#header a:hover{
+    color:#f00;
+    text-decoration: underline;
+}
+
 #footer{
     clear: both;
     font-size: 12px;

@@ -1,14 +1,14 @@
 <?php
 //提前引用配置
  define('IN_TG',true);
+ define('SCRIPT','index');
  require dirname(__FILE__).'/includes/common.inc.php';
 ?>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
         <title>留言系统--首页</title>
-        <link rel="stylesheet" type="text/css" href="style/index.css"/>
-        <link rel="stylesheet" type="text/css" href="style/basic.css"/>
+        <?php require ROOT_PATH.'/includes/linkCss.inc.php';?>
     </head>
     <body>
         <?php require ROOT_PATH.'includes/header.inc.php';?>

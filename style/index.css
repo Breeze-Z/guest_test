@@ -3,26 +3,7 @@
     Author     : weisen.zhang
 */
 @charset "utf-8";
-*{
-    margin: 0;
-    padding: 0;
-}
-body{
-    width: 960px;
-    margin: 0 auto;
-    background: #fff;
-    font-size: 14px;
-}
-ul{
-    list-style: none;
-}
-h2{
-    font-size: 14px;
-    background: #eee;
-    height: 25px;
-    line-height: 25px;
-    text-indent: 10px; 
-}
+
 #user{
     width:340px;
     height:250px;
