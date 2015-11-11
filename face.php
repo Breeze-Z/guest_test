@@ -18,16 +18,19 @@ require dirname(__FILE__).'/includes/common.inc.php';
         //for 方法循环
             for($i=1;$i<10;$i++){ 
         ?>
-            <dd><img src="./facepics/m0<?php echo $i?>.gif" alt="m0<?php echo $i?>"/></dd>
+            <dd>
+                <img src="./facepics/m0<?php echo $i?>.gif" alt="./facepics/m0<?php echo $i?>.gif" title="头像<?php echo $i?>"/></dd>
         <?php  } ?>
         <?php 
         //foreach 方法循环
             foreach(range(10,64) as $i){
         ?>
-            <dd><img src="./facepics/m<?php echo $i?>.gif" alt="m<?php echo $i?>"/></dd>
+            <dd>
+                <img src="./facepics/m<?php echo $i?>.gif" alt="./facepics/m<?php echo $i?>.gif" title="头像<?php echo $i?>"/></dd>
         <?php } ?>
     </dl>
 </div>
+    <script type="text/javascript" src="./js/person.js"></script>
 </body>
 </html>
 

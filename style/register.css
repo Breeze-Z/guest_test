@@ -28,6 +28,9 @@
 #register dl dd.face{
     padding: 5px 0 5px 120px;
 }
+#register dl dd.face img{
+    cursor: pointer;
+}
 #register dl dd .code{
     width: 60px;
 }

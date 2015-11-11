@@ -12,7 +12,7 @@
     <body> 
         <?php require ROOT_PATH.'/includes/header.inc.php';?>
         <div id="register">
-            <form>
+            <form name="register">
                 <h2>会员注册</h2>
                 <dl>
                     <dt>请认真填写以下内容：</dt>
@@ -26,6 +26,7 @@
                        <input type="radio" name="sex" value="woman" />女
                     </dd>
                     <dd class="face">
+                        <input type="hidden" name="face" value="./facepics/m01.gif"/>
                         <img src="./facepics/m01.gif" alt="头像选择" id="faceimg"/>
                     </dd>
                     <dd>电子邮件：<input type="text" name="email"/></dd>
@@ -41,6 +42,7 @@
             </form>
         </div>
         <?php require ROOT_PATH.'/includes/footer.inc.php';?>
+        <script type="text/javascript" src="./js/register.js"></script>
     </body>
 </htlm>
 
