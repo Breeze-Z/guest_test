@@ -7,10 +7,10 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
         <title>留言系统--注册</title>
-       <?php require ROOT_PATH.'/includes/linkCss.inc.php';?>
+    <?php require ROOT_PATH.'/includes/linkCss.inc.php';?>
     </head>
     <body> 
-        <?php require ROOT_PATH.'/includes/header.inc.php';?>
+    <?php require ROOT_PATH.'/includes/header.inc.php';?>
         <div id="register">
             <form name="register">
                 <h2>会员注册</h2>
@@ -34,11 +34,11 @@
                     <dd>博客地址：<input type="text" name="http"/></dd>
                     <dd>验 证 码：
                         <input type="text" name="code" class="code"/>
-                        <img src="" name='codeimg' class="codeimg"/>
+                        <img src="code.php" id="codeimg" name='codeimg' class="codeimg"/>
                     </dd>
                     <dd><input type="submit" name="submit" value="注册" class="submit"/></dd>
                 </dl>
-                
+ 
             </form>
         </div>
         <?php require ROOT_PATH.'/includes/footer.inc.php';?>
